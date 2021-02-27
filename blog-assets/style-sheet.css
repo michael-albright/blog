@@ -1,5 +1,6 @@
-body {
-    background-color: bisque;
+#background {
+    background-image: url("/blog-images/geometric.jpeg"); 
+    width: 100%;
 }
 .form-group {
     position: sticky;
@@ -8,3 +9,136 @@ body {
 #coral {
     color:coral
 }
+.banner {
+    position:relative;
+    top: -65vw;
+    font-size: 40px;
+    margin-left: 40px;
+    color: darkslategrey;
+    font-family: font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+
+#exampleInputEmail1 {
+    background-color: transparent;
+    width: 40%;
+    
+}
+#text {
+    font-size: 25px;
+    color: rgb(245, 72, 29);
+   /* color: white; */
+}
+.bubble-one {
+    position:relative;
+    color:rgb(245, 72, 29);
+    color: white;
+    font-size: 20px;
+    border-style:solid;
+    border-width: bold;
+    border-color: rgb(62, 110, 30);
+  /*  border-color: rgb(245, 72, 29);*/
+    letter-spacing: 1.5px;
+    border-radius: .5em;
+    margin: 20px 10px;
+    padding-top: 10px 10px;
+    width: 200%;
+    min-height: 100px;
+    min-width: 300px;
+    max-width: 200px;
+    max-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    overflow: scroll;
+
+}
+.feed {
+    display: flex;
+    flex-wrap: wrap;
+}
+#emailHelp {
+    font-size: 10px;
+    color: rgb(245, 72, 29);
+  /*  color: white; */
+}
+.bubble-one a:link {
+    text-decoration: none;
+    color: white;
+}
+.bubble-one a:visited {
+    color:white;
+    text-decoration: none;
+}
+.bubble-one a:hover {
+    text-decoration: none;
+}
+.bubble-one a:active {
+    text-decoration: none;
+    color:rgb(245, 72, 29);
+}
+.bubble-one a:visited:hover {
+    color: rgb(245, 72, 29);
+}
+#none {
+    text-decoration: none;
+    padding: 5px;
+    text-align:center;
+}
+#foot {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    text-align: center;
+    width: 100%; 
+    position:absolute;
+}
+#style {
+    color:rgb(245, 72, 29);
+    border-style:solid;
+    border-color:rgb(62, 110, 30);
+    border-width: medium;
+    background-color: beige;
+}
+#exampleInputEmail1 {
+    color: none;
+
+}
+#note {
+    position:relative;
+    font-size: 12px;
+    text-align:center;
+    color:white;
+}/*
+#note:hover {
+    color: white;
+}
+#note :visited:hover {
+    color: white;
+}
+#note:active {
+    color:white;
+}
+#note:visited {
+    color: white;
+}
+
+.bubble-one a:link {
+    text-decoration: none;
+    color: white;
+}
+.bubble-one a:visited {
+    color: white;
+    text-decoration: none;
+}
+.bubble-one a:hover {
+    text-decoration: none;
+}
+.bubble-one a:active {
+    text-decoration: none;
+    color:rgb(245, 72, 29);
+}
+.bubble-one a:visited:hover {
+    color: rgb(245, 72, 29);
+*/
